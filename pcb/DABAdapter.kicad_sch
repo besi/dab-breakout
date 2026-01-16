@@ -4836,7 +4836,7 @@
 			)
 		)
 	)
-	(global_label "I2S_DFS"
+	(global_label "I2S_RLCLK"
 		(shape input)
 		(at 93.98 133.35 0)
 		(fields_autoplaced yes)
@@ -4848,7 +4848,7 @@
 		)
 		(uuid "32f0e20e-c673-4de5-963b-1bbf4e024285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5247 133.35 0)
+			(at 106.8228 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,50 +5100,6 @@
 			)
 		)
 	)
-	(global_label "NVMOSI"
-		(shape input)
-		(at 165.1 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76673e89-4e54-4653-aadc-7f2cf7bdd10e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0995 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NVMISO"
-		(shape input)
-		(at 165.1 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "772c5a80-ffc2-4c26-8e00-889e02d2df3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0995 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NVMISO"
 		(shape input)
 		(at 228.6 106.68 180)
@@ -5228,28 +5184,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NVSCLK"
-		(shape input)
-		(at 165.1 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b987870f-1836-4b0e-a342-22ec3798fd8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9181 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5407,28 +5341,6 @@
 			)
 		)
 	)
-	(global_label "NVSSB"
-		(shape input)
-		(at 165.1 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d68cad50-1891-4706-92e1-ae63205482b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.0067 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "INTB"
 		(shape input)
 		(at 71.12 128.27 180)
@@ -5473,7 +5385,7 @@
 			)
 		)
 	)
-	(global_label "I2S_DFS"
+	(global_label "I2S_RLCLK"
 		(shape input)
 		(at 156.21 60.96 0)
 		(fields_autoplaced yes)
@@ -5485,7 +5397,7 @@
 		)
 		(uuid "e7e77e94-790d-4e2b-a402-ca23ba09bdb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7547 60.96 0)
+			(at 169.0528 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,72 +5609,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "078ef06a-fab0-4daf-b61a-e1f9408f9341")
-		(property "Reference" "TP5"
-			(at 170.18 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NVSSB"
-			(at 175.26 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f8f461-1645-460c-8a5a-2ed191876717")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 165.1 119.38 0)
 			(effects
 				(font
@@ -6727,72 +6573,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32b3bf2e-e06a-44e8-8915-d1a7a49008b6")
-		(property "Reference" "TP4"
-			(at 170.18 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NVMISO"
-			(at 175.26 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4c28c58-4675-47b1-8c3f-e00c9e8c2588")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7154,73 +6934,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 127 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b103799-8e14-4c33-8177-4c90d89d0c06")
-		(property "Reference" "TP3"
-			(at 170.18 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 175.26 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62e8f938-c68d-46e4-a2d3-ebf7451b870d")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7655,73 +7368,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 121.92 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ec8b998-e25a-47b4-b609-645ae3ccb583")
-		(property "Reference" "TP1"
-			(at 170.18 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42d0c6ce-9407-4d18-a7ec-cf2d11e33027")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9326,72 +8972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 127 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcdb70b0-d284-44ed-bc79-b0654a743902")
-		(property "Reference" "#PWR011"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 158.75 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07cc7b25-8b1f-403c-97a7-d013089c763b")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 49.53 90)
 		(unit 1)
@@ -9671,72 +9251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cffb3667-47ad-4a1e-a8c3-199dbb1f402e")
-		(property "Reference" "TP7"
-			(at 170.18 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NVSCLK"
-			(at 175.26 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8703a41-3132-4757-b459-e601479bbd83")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 69.85 100.33 180)
 		(unit 1)
@@ -9886,74 +9400,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 121.92 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd8db954-5f0e-492f-af8c-2c1a4cae81f4")
-		(property "Reference" "#PWR010"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6006573-7119-4996-8230-d7d9fdfa5dcc")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10534,72 +9980,6 @@
 			(project "DABAdapter"
 				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f420658e-c204-4c38-88df-6e5921d83eaa")
-		(property "Reference" "TP6"
-			(at 170.18 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NVMOSI"
-			(at 175.26 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d6fa88-98bc-42bd-9d64-27a629b536ab")
-		)
-		(instances
-			(project "DABAdapter"
-				(path "/60db4cc3-609c-4934-a7c7-72b268f417a1"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
