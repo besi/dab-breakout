@@ -1,5 +1,7 @@
 # DAB Breakout board
 
+![](dab-adapter.png)
+
 ## Flash chip
 
 Optionally a SST2VF016B-50-4C-S2AF Flash chip can be populated.
